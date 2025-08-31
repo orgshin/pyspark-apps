@@ -40,7 +40,7 @@ class BaseStreamApp():
 
     def for_each_batch(self, df: DataFrame, epoch_id, spark: SparkSession):
         '''
-        _for_each_batch 함수 실행 전, 후 공통 로직 삽입용도
+        _for_each_batch 함수 실행 전, 후 공통 로직 삽입용도.
         '''
         self.logger.write_log('info',f'============================= epoch_id: {epoch_id} start =============================',epoch_id)
         self._for_each_batch(df, epoch_id, spark)

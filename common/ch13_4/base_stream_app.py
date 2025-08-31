@@ -48,6 +48,6 @@ class BaseStreamApp():
 
     def _for_each_batch(self, df: DataFrame, epoch_id, spark: SparkSession):
         '''
-        Spark Streaming Application 중 for each batch를 사용하는 경우 해당 함수를 재정의하여 사용합니다.
+        Spark Streaming Application 중 for each batch를 사용하는 경우 해당 함수를 재정의하여 사용합니다..
         '''
         pass
